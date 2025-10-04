@@ -1,0 +1,59 @@
+
+.parent-element{
+    background-color: tomato;
+    border-radius: 20px;
+    padding: 20px;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.child-element{
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 2px;
+    margin: 10px;
+
+}
+.child-element1{
+    background-color: black;
+    color: rgb(165, 164, 164);
+    text-align: center;
+}
+.child-element2{
+    background-color: transparent;
+}
+.child-element2 img{
+    border-radius: 20px;
+}
+.child-element3{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.child-element3 p{
+    text-align: center;
+}
+.child-element4{
+    background: transparent;
+}
+.btn1{
+    color: blue;
+    background-color: aqua;
+    border-radius: 20px 0px 0px 20px;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.384);
+}
+.btn2{
+color: white;
+background-color: red;
+border-radius: 0px 20px 20px 0px;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: rgba(107, 48, 8, 0.301);
+}

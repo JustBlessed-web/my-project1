@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.header{
+    text-align: center;
+    background-repeat: initial;
+    background-color: blueviolet;
+    font-size: 30px;
+    background-position: 50%;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5%;
+}
+.button{
+    background-color: grey;
+    text-align: end;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.384);
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: rgba(107, 48, 8, 0.301);
+}
